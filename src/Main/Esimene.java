@@ -18,5 +18,6 @@ public class Esimene {
         String netSalaryValue = Integer.toString(netSalary);
         int length = netSalaryValue.length();
         System.out.println("Netopalk on " + euros + " eurot ja " + netSalaryValue.substring(length-2) + " senti.");
+        System.out.println("Hurraa!");
     }
 }
